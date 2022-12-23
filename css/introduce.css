@@ -23,13 +23,13 @@
   }
 .content{
     position: relative;
-    background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
+    background-image: url(../img/pexels-karolina-grabowska-4039781.jpg);
     height: 100%;
     padding-bottom: 2%;
 }
 .a{
     position:absolute;
-    background-image:url(/img/1.jpg);
+    background-image:url(../img/1.jpg);
     background-size:cover;
     opacity: 0.4;
     background-position:center;

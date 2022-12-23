@@ -15,7 +15,6 @@
 	flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 5%;
-
   }
   .circle 
   {
@@ -52,35 +51,35 @@
     opacity: 0.7;
   }
   .ring{
-    background-image: url(/img/pexels-dids-1302307.jpg);
+    background-image: url(../img/pexels-dids-1302307.jpg);
     background-size: 100% 100%;
   }
   .necklace{
-    background-image: url(/img/項鍊.jpg);
+    background-image: url(../img/項鍊.jpg);
     background-size: 100% 100%;
   }
   .earring{
-    background-image: url(/img/耳環.jpg);
+    background-image: url(../img/耳環.jpg);
     background-size: 100% 100%;
   }
   .Bracelet{
-    background-image: url(/img/手環.jpg);
+    background-image: url(../img/手環.jpg);
     background-size: 100% 100%;
   }
   .fb{
-    background-image: url(/img/fb.png);
+    background-image: url(../img/fb.png);
     background-size: 100% 100%;
   }
   .line{
-    background-image: url(/img/line.png);
+    background-image: url(../img/line.png);
     background-size: 100% 100%;
   }
   .ig{
-    background-image: url(/img/IG.png);
+    background-image: url(../img/IG.png);
     background-size: 100% 100%;
   }
   .shopee{
-    background-image: url(/img/Shopee.jpg);
+    background-image: url(../img/Shopee.jpg);
     background-size: 100% 100%;
   }
   @media screen and (Max-Width:  1800px){
