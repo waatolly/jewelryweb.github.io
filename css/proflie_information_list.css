@@ -1,0 +1,135 @@
+
+html {
+    background-color:blanchedalmond;
+  }
+  table
+  {
+    word-break:break-all;
+  }
+  .card {
+    position: relative;
+    width: 330px;
+    box-shadow: 0 20px 10px -20px;
+    border-radius: 4px;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    word-wrap: normal;
+    overflow: auto;
+  }
+  .label {
+    padding-right: 0px;
+    
+    white-space:nowrap; 
+  }
+  hr {
+    color: #1284c7;
+  }
+  .card-action {
+    float: right;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1284c7;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  p {
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1284c7;
+  }
+  
+  .cart {
+    margin: 20px 0 20px 128px;
+  }
+  
+  h4 {
+    margin: 0;
+  }
+  
+  .invoice {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #969290;
+    border-radius: 4px;
+  }
+  
+  h4, .date {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .invoice-id {
+    float: left;
+  }
+  
+  .date {
+    float: right;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+  }
+  
+  #mainbox {
+    font-family: calibri;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .nav{
+    background-color: blanchedalmond;
+    width: 100%;
+  }
+  .nav p{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    margin: 3% auto;
+  }
+  .nav p a{
+  color: black;
+  text-decoration: none;
+  }
+  p{
+    margin: 20px;
+  }
+  @media screen and (Max-Width:500px){
+	.footer
+    {
+        margin: 0 auto;
+        padding: 10px 0 10px 0;  
+    }
+  .label
+        {
+          font-size: 7px;
+        }
+      }
+  @media screen and (Max-Width:250px){
+    .label 
+      {
+        font-size: 7px;
+      }
+    }

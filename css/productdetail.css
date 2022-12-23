@@ -1,0 +1,267 @@
+.containerbox{
+    background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
+    height: 100%;
+    padding-bottom: 2%;
+}
+.nav{
+    
+    width: 100%;
+    background-color: blanchedalmond;
+    
+}
+.nav p{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    margin: 3% auto;
+}
+.nav p a{
+    color: black;
+    text-decoration: none;
+  }
+
+.picturebox{
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+    height: auto;
+}
+.word{
+    width: 30%;
+    font-size: x-large;
+    padding-top: 2%;
+}
+.name{
+    font-size: xx-large;
+}
+.word ul{
+    list-style: none;
+    padding: 0;
+}
+.detail{
+    font-size: large;
+    line-height: 1.5;
+}
+.word ul li{
+    font-size: large;
+}
+.btn{
+    width: 100%;
+    background-color: #FFFF99;
+}
+.goodsbox{
+    width: 100%;
+    z-index: 0;
+}
+.goodslist{
+    display: flex;
+    width: 100%;
+    margin: 10% auto;
+    padding-left:3%;
+    padding-right: 3%;
+    
+}
+.goods p{
+    margin: 5% 0;
+    text-align: center;
+}
+
+
+.imgbox{
+    width: 80%;
+}
+.goodsimg{
+   width: 300px;
+   height: 300px;
+    margin: 0 auto;
+    
+    object-fit: cover;
+    
+}
+
+.footer{
+		
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    padding: 1%;
+  }
+
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+* {margin: 0; padding: 0;}
+body {
+    width: 100%;
+    height: auto;
+    overflow: hidden scroll;
+}
+.slick-dots li button::before {
+    font-size: 70px;
+}
+.slick-arrow{
+    display: none;
+}
+
+@media  (max-width: 1412px)
+{
+    .picturebox{
+        width: 100%;
+
+    }
+    .word{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width:650px )
+{
+    .picture{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width:450px )
+{
+    .picture{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:350px )
+{
+    .picture{
+        width: 200px;
+        height: 200px;
+    }
+    .word{
+        font-size: medium;
+    }
+    .name{
+        font-size: x-large;
+    }
+}
